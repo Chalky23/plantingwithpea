@@ -7,14 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        btn: {
-          background: "hsl(var(--btn-background))",
-          "background-hover": "hsl(var(--btn-background-hover))",
-        },
+        darkgreen: "#283618",
+        lightgreen: "#6B8A58",
+        cream: "#fefae0",
+        beige: "#dda15e",
       },
     },
   },
-  plugins: [],
 };
