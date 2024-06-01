@@ -25,3 +25,16 @@ export default async function Page() {
     </Link>
   );
 }
+
+/* 
+
+create todo list on the profile page
+add, edit and delete functions
+link to supabase table
+
+create todos table ins supabase
+add row in supabase table with dummy data
+fetch that data on the profile page
+
+
+*/
