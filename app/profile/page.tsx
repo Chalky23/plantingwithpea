@@ -13,7 +13,10 @@ export default async function Page() {
   return user ? (
     <div>
       <Nav />
-      <p>Hey, {user.email}!</p>
+      <div className="flex flex-col">
+        <p className="mx-auto my-8">Hey, {user.email}!</p>
+        <p className="mx-auto mb-8">New features coming soon.</p>
+      </div>
       <Footer />
     </div>
   ) : (
